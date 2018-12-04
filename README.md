@@ -1,2 +1,1 @@
-# hello-world
-first-github repository
+404 not found
