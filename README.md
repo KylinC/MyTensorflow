@@ -1,1 +1,1 @@
-404 not found
+some template and simple project in it
