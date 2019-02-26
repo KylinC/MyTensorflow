@@ -155,36 +155,38 @@ test_data_file.close()
 
 # test the neural network
 
-# scorecard for how well the network performs, initially empty
-scorecard = []
+#scorecard for how well the network performs,initially empty
+scorecard=[]
 
-# go through all the records in the test data set
+#go through all the records in the test dataset
 for record in test_data_list:
-    # split the record by the ',' commas
-    all_values = record.split(',')
-    # correct answer is first value
-    correct_label = int(all_values[0])
-    # scale and shift the inputs
-    inputs = (numpy.asfarray(all_values[1:]) / 255.0 * 0.99) + 0.01
-    # query the network
-    outputs = n.query(inputs)
-    # the index of the highest value corresponds to the label
-    label = numpy.argmax(outputs)
-    # append correct or incorrect to list
-    if (label == correct_label):
-        # network's answer matches correct answer, add 1 to scorecard
+    #split the record by the "," commas
+    all_values=record.split(',')
+    #correct answer is the first values
+    correct_label=int(all_values[0])
+    print(correct_label,"correct label")
+    #scale and shift the inputs
+    inputs=(numpy.asfarray(all_values[1:])/255.0*0.99)+0.01
+    #query the network
+    outputs=n.query(inputs)
+    #the index of the highest value correponds to the label
+    label=numpy.argmax(outputs)
+    print(label,"network's answer")
+    #append correct or incorrect to list
+    if(label==correct_label):
+        #network's answer matches correct answer, add 1 to scorecard
         scorecard.append(1)
     else:
-        # network's answer doesn't match correct answer, add 0 to scorecard
+        #network's answer doesn't match correct answer, add 0 to scorecard
         scorecard.append(0)
         pass
-
     pass
+print(scorecard)
 
-# calculate the performance score, the fraction of correct answers
-scorecard_array = numpy.asarray(scorecard)
-print ("performance = ", scorecard_array.sum() / scorecard_array.size)
+#calculate the performance score,the fraction of correct answer
 
+scorecard_array=numpy.asfarray(scorecard)
+print("performance = ",scorecard_array.sum()/scorecard_array.size)
 # run the network backwards, given a label, see what image it produces
 
 # label to test
