@@ -122,7 +122,7 @@ learning_rate=0.05
 n=neuralNetwork(input_nodes,hidden_nodes,output_nodes,learning_rate)
 
 #load the mnist training data CSV file into a list
-training_data_file=open("/mnist_dataset/mnist_train_100.csv","r")
+training_data_file=open("/mnist_dataset/mnist_train.csv","r")
 training_data_list=training_data_file.readlines()
 training_data_file.close()
 
