@@ -1,4 +1,4 @@
-some template and simple project in it
+    #Neural_Network Python class and Project Hand Writing Recognizing(HWR)
 
 #2019.2.26 update queryback, it can get 0~9 image by running.\n
 
