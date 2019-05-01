@@ -12,6 +12,10 @@ import scipy.ndimage
 # import NN_template
 from NN_template import *
 
+# add path_fragment
+wih_path_frag = "../mode_para/trained_data_set/wih_epoch_"
+who_path_frag = "../mode_para/trained_data_set/who_epoch_"
+
 #number of input, hidden and output hnodes
 input_nodes=784
 hidden_nodes=100
@@ -29,20 +33,20 @@ learning_rate=0.05
 while epochs=2, performance=95.05%
 while epochs=7, performance=96.84%
 '''
-epochs=5
+epochs=70
 
 
 #create instance of neural network
 n=neuralNetwork(input_nodes,hidden_nodes,output_nodes,learning_rate)
 
 #load the mnist training data CSV file into a list
-training_data_file=open("../mnist_dataset/mnist_train_100.csv","r")
+training_data_file=open("../mnist_dataset/mnist_train.csv","r")
 training_data_list=training_data_file.readlines()
 training_data_file.close()
 #training the neural network
 
 # load the mnist test data CSV file into a list
-test_data_file = open("../mnist_dataset/mnist_test_10.csv", 'r')
+test_data_file = open("../mnist_dataset/mnist_test.csv", 'r')
 test_data_list = test_data_file.readlines()
 test_data_file.close()
 
@@ -53,6 +57,9 @@ print("training init...\n")
 # train the neural network
 
 for e in range(1,epochs+1,1):
+    # calculate the numpy file name
+    wih_path=wih_path_frag+str(e)+".npy"
+    who_path=who_path_frag+str(e)+".npy"
     # go through all records in the training data set
     print ("epoch %d start..."%(e)),
     for record in training_data_list:
@@ -120,6 +127,7 @@ for e in range(1,epochs+1,1):
     # label to test
 
     print ("epoch %d succeed!\n"%(e))
+    n.save(wih_path,who_path)
     pass
 
 print(correct_list)
@@ -141,7 +149,7 @@ plt.grid(linestyle='--')
 
 plt.legend(loc="upper left")
 
-plt.savefig("../picture/epoch_trend_test")
+plt.savefig("../picture/epoch_trend_70")
 plt.show()
 
 
