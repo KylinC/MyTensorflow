@@ -33,7 +33,7 @@ learning_rate=0.05
 while epochs=2, performance=95.05%
 while epochs=7, performance=96.84%
 '''
-epochs=100
+epochs=70
 
 
 #create instance of neural network
@@ -75,12 +75,12 @@ for e in range(1,epochs+1,1):
 
         ## create rotated variations
         # rotated anticlockwise by x degrees
-        for degree in range(5,25,5):
-            inputs_plusx_img = scipy.ndimage.interpolation.rotate(inputs.reshape(28,28), degree, cval=0.01, order=1, reshape=False)
-            n.train(inputs_plusx_img.reshape(784), targets)
-            # rotated clockwise by x degrees
-            inputs_minusx_img = scipy.ndimage.interpolation.rotate(inputs.reshape(28,28), -degree, cval=0.01, order=1, reshape=False)
-            n.train(inputs_minusx_img.reshape(784), targets)
+
+        inputs_plusx_img = scipy.ndimage.interpolation.rotate(inputs.reshape(28,28), 10, cval=0.01, order=1, reshape=False)
+        n.train(inputs_plusx_img.reshape(784), targets)
+        # rotated clockwise by x degrees
+        inputs_minusx_img = scipy.ndimage.interpolation.rotate(inputs.reshape(28,28), -10, cval=0.01, order=1, reshape=False)
+        n.train(inputs_minusx_img.reshape(784), targets)
 
         # rotated anticlockwise by 10 degrees
         #inputs_plus10_img = scipy.ndimage.interpolation.rotate(inputs.reshape(28,28), 10, cval=0.01, order=1, reshape=False)
