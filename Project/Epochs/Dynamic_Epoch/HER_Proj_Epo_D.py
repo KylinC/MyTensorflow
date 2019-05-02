@@ -13,8 +13,8 @@ import scipy.ndimage
 from NN_template import *
 
 # add path_fragment
-wih_path_frag = "../mode_para/trained_data_set/wih_epoch_"
-who_path_frag = "../mode_para/trained_data_set/who_epoch_"
+wih_path_frag = "../mode_para/trained_data_set_1/wih_epoch_"
+who_path_frag = "../mode_para/trained_data_set_1/who_epoch_"
 
 #number of input, hidden and output hnodes
 input_nodes=784
@@ -33,7 +33,7 @@ learning_rate=0.05
 while epochs=2, performance=95.05%
 while epochs=7, performance=96.84%
 '''
-epochs=70
+epochs=100
 
 
 #create instance of neural network
@@ -75,11 +75,12 @@ for e in range(1,epochs+1,1):
 
         ## create rotated variations
         # rotated anticlockwise by x degrees
-        inputs_plusx_img = scipy.ndimage.interpolation.rotate(inputs.reshape(28,28), 10, cval=0.01, order=1, reshape=False)
-        n.train(inputs_plusx_img.reshape(784), targets)
-        # rotated clockwise by x degrees
-        inputs_minusx_img = scipy.ndimage.interpolation.rotate(inputs.reshape(28,28), -10, cval=0.01, order=1, reshape=False)
-        n.train(inputs_minusx_img.reshape(784), targets)
+        for degree in range(5,25,5):
+            inputs_plusx_img = scipy.ndimage.interpolation.rotate(inputs.reshape(28,28), degree, cval=0.01, order=1, reshape=False)
+            n.train(inputs_plusx_img.reshape(784), targets)
+            # rotated clockwise by x degrees
+            inputs_minusx_img = scipy.ndimage.interpolation.rotate(inputs.reshape(28,28), -degree, cval=0.01, order=1, reshape=False)
+            n.train(inputs_minusx_img.reshape(784), targets)
 
         # rotated anticlockwise by 10 degrees
         #inputs_plus10_img = scipy.ndimage.interpolation.rotate(inputs.reshape(28,28), 10, cval=0.01, order=1, reshape=False)
@@ -149,7 +150,7 @@ plt.grid(linestyle='--')
 
 plt.legend(loc="upper left")
 
-plt.savefig("../picture/epoch_trend_70")
+plt.savefig("../picture/epoch_trend_100")
 plt.show()
 
 

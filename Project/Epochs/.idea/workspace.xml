@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ee7ee7b5-1d01-4c02-9cb2-64b052879579" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Data_Expand/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Data_Expand/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_D.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_D.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picture/epoch_trend_test.png" beforeDir="false" afterPath="$PROJECT_DIR$/picture/epoch_trend_test.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_D.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1075">
-              <caret line="151" column="38" selection-start-line="151" selection-start-column="38" selection-end-line="151" selection-end-column="38" />
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -282,15 +280,16 @@
       <option name="presentableId" value="Default" />
       <updated>1556692649305</updated>
       <workItem from="1556692650437" duration="4390000" />
-      <workItem from="1556697388522" duration="11158000" />
+      <workItem from="1556697388522" duration="13159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15548000" />
+    <option name="totallyTimeSpent" value="17549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-2" width="1280" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25364667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -322,7 +321,7 @@
     <SUITE FILE_PATH="coverage/Epochs$HER_loadtest.coverage" NAME="HER_loadtest Coverage Results" MODIFIED="1556702276610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Epoch" />
     <SUITE FILE_PATH="coverage/Epochs$Single_Img_Test.coverage" NAME="Single_Img_Test Coverage Results" MODIFIED="1556705168742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Epoch" />
     <SUITE FILE_PATH="coverage/Epochs$HER_Proj_Epo__1_.coverage" NAME="HER_Proj_Epo (1) Coverage Results" MODIFIED="1556700912126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Static_Epoch" />
-    <SUITE FILE_PATH="coverage/Epochs$HER_Proj_Epo_D.coverage" NAME="HER_Proj_Epo_D Coverage Results" MODIFIED="1556719381104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Epoch" />
+    <SUITE FILE_PATH="coverage/Epochs$HER_Proj_Epo_D.coverage" NAME="HER_Proj_Epo_D Coverage Results" MODIFIED="1556725259967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Epoch" />
     <SUITE FILE_PATH="coverage/Epochs$HER_Proj_Epo.coverage" NAME="HER_Proj_Epo Coverage Results" MODIFIED="1556700411345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
@@ -386,8 +385,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_D.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="151" column="38" selection-start-line="151" selection-start-column="38" selection-end-line="151" selection-end-column="38" />
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>

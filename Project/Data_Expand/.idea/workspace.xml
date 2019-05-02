@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de072bc1-2013-451f-a18c-66b5f31c64e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Epochs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Epochs/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Epochs/Dynamic_Epoch/HER_Proj_Epo_D.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Epochs/Dynamic_Epoch/HER_Proj_Epo_D.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Epochs/picture/epoch_trend_test.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Epochs/picture/epoch_trend_test.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -129,7 +127,8 @@
     <option name="totallyTimeSpent" value="2058000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="177" width="1024" height="743" extended-state="6" />
+    <frame x="1280" y="177" width="1024" height="743" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3149284" />
