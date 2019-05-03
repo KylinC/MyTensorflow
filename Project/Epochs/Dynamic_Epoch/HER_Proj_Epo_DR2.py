@@ -35,12 +35,12 @@ learning_rate=0.05
 while epochs=2, performance=95.05%
 while epochs=7, performance=96.84%
 '''
-epochs=70
+epochs=50
 
 # define the degree-scope we want to test
-min_degree=3
-max_degree=30
-scale_degree=3
+min_degree=2
+max_degree=20
+scale_degree=2
 
 #create instance of neural network
 n=neuralNetwork(input_nodes,hidden_nodes,output_nodes,learning_rate)
@@ -161,7 +161,7 @@ plt.figure(figsize=(20,20),dpi=100)
 read_point=0
 for degree in range(min_degree,max_degree,scale_degree):
     label="degree:"+str(degree)
-    plt.plot(x_axis_list,correct_pac[read_point],lw=4,label=label,color=color_list[read_point])
+    plt.plot(x_axis_list,correct_pac[read_point],lw=2,label=label,color=color_list[read_point])
     read_point+=1
 
 _xtick_labels = ["{}".format(i) for i in x_axis_list]

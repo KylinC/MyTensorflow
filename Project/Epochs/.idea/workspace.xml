@@ -2,152 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee7ee7b5-1d01-4c02-9cb2-64b052879579" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_DR.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_DR2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_DR3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data_Expand/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Data_Expand/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_D.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_D.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_1.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_10.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_11.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_12.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_13.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_14.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_15.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_16.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_17.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_18.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_19.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_2.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_20.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_21.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_22.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_23.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_24.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_25.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_26.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_27.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_28.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_29.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_3.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_30.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_31.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_32.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_33.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_34.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_35.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_36.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_37.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_38.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_39.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_4.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_40.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_41.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_42.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_43.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_44.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_45.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_46.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_47.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_48.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_49.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_5.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_50.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_51.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_52.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_53.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_54.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_55.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_56.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_57.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_58.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_59.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_6.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_60.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_61.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_62.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_63.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_64.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_65.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_66.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_67.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_68.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_69.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_7.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_70.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_8.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/who_epoch_9.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_1.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_10.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_11.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_12.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_13.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_14.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_15.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_16.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_17.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_18.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_19.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_2.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_20.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_21.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_22.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_23.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_24.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_25.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_26.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_27.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_28.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_29.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_3.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_30.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_31.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_32.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_33.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_34.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_35.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_36.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_37.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_38.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_39.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_4.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_40.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_41.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_42.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_43.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_44.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_45.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_46.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_47.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_48.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_49.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_5.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_50.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_51.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_52.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_53.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_54.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_55.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_56.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_57.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_58.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_59.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_6.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_60.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_61.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_62.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_63.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_64.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_65.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_66.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_67.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_68.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_69.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_7.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_70.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_8.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mode_para/trained_data_set/wih_epoch_9.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_DR.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_DR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_DR2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_DR2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -160,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_DR3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="20" lean-forward="true" selection-end-line="183" selection-end-column="4" />
+            <state relative-caret-position="165">
+              <caret line="11" column="20" selection-end-line="183" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -169,7 +26,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dynamic_Epoch/NN_template.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
+            <state relative-caret-position="1485">
               <caret line="108" column="12" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
@@ -181,7 +38,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_D.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-50">
+            <state relative-caret-position="975">
               <caret line="77" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
@@ -190,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_DR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -202,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_DR2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="225">
+              <caret line="33" column="3" selection-end-line="183" selection-end-column="4" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -236,14 +93,14 @@
         <option value="$PROJECT_DIR$/Static_Epoch/HER_Proj_Epo.py" />
         <option value="$PROJECT_DIR$/Dynamic_Epoch/HER_loadtest.py" />
         <option value="$PROJECT_DIR$/Dynamic_Epoch/Single_Img_Test.py" />
-        <option value="$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_DR.py" />
         <option value="$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_D.py" />
         <option value="$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_DR3.py" />
         <option value="$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_DR2.py" />
+        <option value="$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_DR.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="-2" />
     <option name="width" value="1280" />
     <option name="height" value="1026" />
@@ -448,23 +305,23 @@
       <option name="presentableId" value="Default" />
       <updated>1556692649305</updated>
       <workItem from="1556692650437" duration="4390000" />
-      <workItem from="1556697388522" duration="20319000" />
+      <workItem from="1556697388522" duration="21008000" />
+      <workItem from="1556848428252" duration="268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24709000" />
+    <option name="totallyTimeSpent" value="25666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-2" width="1280" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25364667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25769854" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32998884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -498,10 +355,10 @@
     <entry file="file://$PROJECT_DIR$/NN_template.py" />
     <entry file="file://$PROJECT_DIR$/HER_Proj_Epo.py" />
     <entry file="file://$PROJECT_DIR$/mnist_dataset/mnist_test_10.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Static_Epoch/NN_template.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -543,10 +400,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_DR.py">
+    <entry file="file://$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_DR3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        <state relative-caret-position="165">
+          <caret line="11" column="20" selection-end-line="183" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic_Epoch/NN_template.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="108" column="12" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
@@ -555,7 +419,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_D.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
+        <state relative-caret-position="975">
           <caret line="77" selection-start-line="77" selection-end-line="77" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
@@ -563,27 +427,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dynamic_Epoch/NN_template.py">
+    <entry file="file://$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_DR2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="108" column="12" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
+        <state relative-caret-position="225">
+          <caret line="33" column="3" selection-end-line="183" selection-end-column="4" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_DR3.py">
+    <entry file="file://$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_DR.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="20" lean-forward="true" selection-end-line="183" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dynamic_Epoch/HER_Proj_Epo_DR2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="300">
+          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>

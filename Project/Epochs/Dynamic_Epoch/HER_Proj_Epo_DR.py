@@ -15,13 +15,15 @@ from NN_template import *
 # add path_fragment
 wih_path_frag = "../mode_para/trained_data_set_2/wih_epoch_"
 who_path_frag = "../mode_para/trained_data_set_2/who_epoch_"
+wih_path_origin = "../mode_para/trained_data_set_2/wih_origin.npy"
+who_path_origin = "../mode_para/trained_data_set_2/who_origin.npy"
 
 #number of input, hidden and output hnodes
 input_nodes=784
 hidden_nodes=100
 output_nodes=10
 
-#learning rate is 0.3
+#learning rate is 0.05
 '''
 while 0.1, performance = 95.41%
 while 0.3, performance = 94.48%
@@ -33,12 +35,12 @@ learning_rate=0.05
 while epochs=2, performance=95.05%
 while epochs=7, performance=96.84%
 '''
-epochs=70
+epochs=50
 
 # define the degree-scope we want to test
-min_degree=3
-max_degree=31
-scale_degree=3
+min_degree=8
+max_degree=13
+scale_degree=1
 
 #create instance of neural network
 n=neuralNetwork(input_nodes,hidden_nodes,output_nodes,learning_rate)
@@ -60,8 +62,11 @@ correct_pac=[]
 
 print("training init...\n")
 
+n.save(wih_path_origin,who_path_origin)
+
 # train the neural network
 for degree in range(min_degree,max_degree,scale_degree):
+    n.load(wih_path_origin,who_path_origin)
     # contain the fixed max-angle epochs-trend
     correct_list = []
     for e in range(1,epochs+1,1):
@@ -80,8 +85,8 @@ for degree in range(min_degree,max_degree,scale_degree):
             # all_values[0] is the target label for this record
 
             targets[int(all_values[0])] = 0.99
-            if(degree==min_degree):
-                n.train(inputs, targets)
+
+            n.train(inputs, targets)
 
             ## create rotated variations
             # rotated anticlockwise by x degrees
@@ -98,10 +103,9 @@ for degree in range(min_degree,max_degree,scale_degree):
             #inputs_minus10_img = scipy.ndimage.interpolation.rotate(inputs.reshape(28,28), -10, cval=0.01, order=1, reshape=False)
             #n.train(inputs_minus10_img.reshape(784), targets)
 
-            # scorecard for how well the network performs,initially empty
-            scorecard = []
-
-            # go through all the records in the test dataset
+        # scorecard for how well the network performs,initially empty
+        scorecard = []
+        # go through all the records in the test dataset
         for record in test_data_list:
             # split the record by the "," commas
             all_values = record.split(',')
@@ -157,7 +161,7 @@ plt.figure(figsize=(20,20),dpi=100)
 read_point=0
 for degree in range(min_degree,max_degree,scale_degree):
     label="degree:"+str(degree)
-    plt.plot(x_axis_list,correct_pac[read_point],lw=4,label=label,color=color_list[read_point])
+    plt.plot(x_axis_list,correct_pac[read_point],label=label,color=color_list[read_point])
     read_point+=1
 
 _xtick_labels = ["{}".format(i) for i in x_axis_list]
@@ -168,7 +172,7 @@ plt.grid(True)
 plt.grid(linestyle='--')
 
 plt.legend(loc="upper left")
-plt.savefig("../picture/epoch_trend_DR")
+plt.savefig("../picture/epoch_trend_DR_7_lr051")
 plt.show()
 
 
