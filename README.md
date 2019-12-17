@@ -11,6 +11,7 @@
 ![](http://kylinhub.oss-cn-shanghai.aliyuncs.com/2019-05-01-back_1_1_7-1.png)
 - **Epoch_Trend**: To find which which epoch can help us get the maximal and most stable accuracy, which may give idea in batch_size choice in pytorch.
 - **Rotate_trend**: For 60000 pictures(28 * 28 * 1 matrix), we can use rotate expand to get more training data to get more correctness.
-![](http://kylinhub.oss-cn-shanghai.aliyuncs.com/2019-05-03-epoch_trend_DR_7_lr051.png)
-### Test
+<center>
+<img src="http://kylinhub.oss-cn-shanghai.aliyuncs.com/2019-12-01-Screenshot%20from%202019-12-01%2015-55-38.png" width="50%" height="50%" />
+</center>
 
